@@ -1,1 +1,1 @@
-# IntNet
+# INTNet
