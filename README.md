@@ -21,3 +21,18 @@ Installation
 ------------
 clone the program to your local machine\
 git clone https://github.com/patience111/INTNet
+
+
+**1. Setting up environment**
+
+
+**1.1 Installation with conda**
+
+
+1.1.1 For **CPU** inference, you could install the program with conda YAML file in the installation directory with the following commands:
+
+```
+cd ./installation 
+conda env create -f INTNet-CPU.yml -n INTNet-cpu
+conda activate INTNet-cpu
+```
