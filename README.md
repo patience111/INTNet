@@ -6,7 +6,7 @@ INTNet is designed to identify and classify integron integrases, predict bacteri
 * Long Amino Acid Sequences (Full Length/Contigs)
 * Long Nucleotide Sequences
 * Short Amino Acid Reads (30-50 aa)
-* Short Nucleotide Reads (100-150 nt)\
+* Short Nucleotide Reads (100-150 nt)
 
 All inputs should be in FASTA format.
 
