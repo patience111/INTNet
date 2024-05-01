@@ -36,3 +36,18 @@ cd ./installation
 conda env create -f INTNet-CPU.yml -n INTNet-cpu
 conda activate INTNet-cpu
 ```
+
+(This was tested on Ubuntu 16.04, 20.04; Windows 10, macOS(14.1.1))\
+ ![alt text](https://github.com/patience111/INTNet/blob/master/pics/test_cpu.jpg)
+
+ 1.1.2 For **GPU** inference, you could install the program with conda YAML file in the installation directory with the following commands:</br>
+```
+cd ./installation
+conda env create -f INTNet-GPU.yml -n INTNet-gpu
+conda activate INTNet-gpu
+```
+(This was tested on Ubuntu 16.04, cuda 10.1, Driver Version: 430.64)\
+    ![alt text](https://github.com/patience111/ARGNet/blob/main/pics/argnet_conda_gpu_trial.png)
+
+
+
