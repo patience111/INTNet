@@ -47,7 +47,8 @@ conda env create -f INTNet-GPU.yml -n INTNet-gpu
 conda activate INTNet-gpu
 ```
 (This was tested on Ubuntu 16.04, cuda 10.1, Driver Version: 430.64)\
-    ![alt text](https://github.com/patience111/ARGNet/blob/main/pics/argnet_conda_gpu_trial.png)
+    ![alt text](https://github.com/patience111/INTNet/blob/master/pics/test_gpu_1.jpg)
+    ![alt text](https://github.com/patience111/INTNet/blob/master/pics/test_gpu_2.jpg)
 
 
 
