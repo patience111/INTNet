@@ -51,4 +51,18 @@ conda activate INTNet-gpu
     ![alt text](https://github.com/patience111/INTNet/blob/master/pics/test_gpu_2.jpg)
 
 
+**1.2 Or, if you prefer installing dependencies manually, you might find this information useful:**\
+The program was tested with the following package version, you can install exactly the same version or other compatible versions.
+```
+Biopython:  1.79
+tensorflow:  2.2.0 
+cuda: 10.2 (for GPU using)
+cudnn: 7.6.5.32 (for GPU using)
+numpy: 1.18.5
+scikit-learn: 0.24.1
+tqdm: 4.56.0
+```
+**2. Getting trained models**
+
+
 
