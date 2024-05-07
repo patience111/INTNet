@@ -64,5 +64,9 @@ tqdm: 4.56.0
 ```
 **2. Getting trained models**
 
+```   
+cd ./models
+bash get-models.sh
+```
 
 
