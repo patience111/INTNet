@@ -68,5 +68,22 @@ tqdm: 4.56.0
 cd ./models
 bash get-models.sh
 ```
+Quickstart Guide
+----------------
+***for long sequences***
 
+```
+python intnet.py --input input_path_data  --type aa/nt --model argnet-l  --outname output_file_name
+```
+***for short reads***
 
+```
+python intnet.py --input input_path_data --type aa/nt --model argnet-s --outname output_file_name
+```
+
+**general options:**
+
+     --input/-i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the test file as input </br>
+     --type/-t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;molecular type of your test data (aa for amino acid, nt for nucleotide)</br>
+     --model/-m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the model you assign to make the prediction (argnet-l for long sequences, argnet-s for short reads) </br>
+     --outname/-on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the output file name </br>
