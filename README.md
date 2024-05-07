@@ -119,5 +119,5 @@ The last column **resistance_category** is the multi-label prediction of asssoci
 Contribute
 ----------
 
-If you'd like to contribute to INTNet, check out https://github.com/patience111/INTNet.\
+If you'd like to contribute to INTNet, check out https://github.com/patience111/INTNet. \
 Hope you enjoy INTNet journey, any problem please contact scpeiyao@gmail.com
