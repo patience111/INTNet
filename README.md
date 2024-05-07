@@ -109,7 +109,9 @@ python3 ./scripts/argnet.py -i ./tests/aa/long/arg100p.fasta -t aa -m argnet-l -
 ```
 **output** will be like and saved in the **results** folder: </br>
 ![alt text](https://github.com/patience111/INTNet/blob/master/pics/INTNet_ssaa_test_result.png)</br>
-the first column **test_id** is the sequence label of the test sequnece.</br>
-the second column **ARG_prediction** is the "ARG" or "non-ARG" prediction of the input sequence.</br>
-the third column **resistance_category** is the classifition of the 36 antibiotics categories of the input sequence resisting to.</br>
-the last column **probability** is the classifition probability of the antibiotic predition of the input sequence by the model.
+The first column **test_id** is the sequence label of the test sequnece.</br>
+The second column **inti_type** is the "integron" or "non-integron" prediction of the input sequence.\
+The third column **pre_prob** is the integron prediction confidence of the input sequence by the model.\ 
+The fourth column **bacterial_host** is the bacterial host prediction of the input sequence if it is predicted as integron first.\
+The fifth column **pre_prob** is the bacterial host prediction confidence of the input sequence if it is predicted as integron first.\
+The last column **resistance_category** is the multi-label prediction of asssociated ARGs of the input sequences.\
