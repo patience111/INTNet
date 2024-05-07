@@ -111,7 +111,13 @@ python3 ./scripts/argnet.py -i ./tests/aa/long/arg100p.fasta -t aa -m argnet-l -
 ![alt text](https://github.com/patience111/INTNet/blob/master/pics/INTNet_ssaa_test_result.png)</br>
 The first column **test_id** is the sequence label of the test sequnece.</br>
 The second column **inti_type** is the "integron" or "non-integron" prediction of the input sequence.\
-The third column **pre_prob** is the integron prediction confidence of the input sequence by the model.\ 
+The third column **pre_prob** is the integron prediction confidence of the input sequence by the model.\
 The fourth column **bacterial_host** is the bacterial host prediction of the input sequence if it is predicted as integron first.\
 The fifth column **pre_prob** is the bacterial host prediction confidence of the input sequence if it is predicted as integron first.\
-The last column **resistance_category** is the multi-label prediction of asssociated ARGs of the input sequences.\
+The last column **resistance_category** is the multi-label prediction of asssociated ARGs of the input sequences.
+
+Contribute
+----------
+
+If you'd like to contribute to INTNet, check out https://github.com/patience111/INTNet.\
+Hope you enjoy INTNet journey, any problem please contact scpeiyao@gmail.com
