@@ -81,9 +81,23 @@ python intnet.py --input input_path_data  --type aa/nt --model argnet-l  --outna
 python intnet.py --input input_path_data --type aa/nt --model argnet-s --outname output_file_name
 ```
 
-**general options:**
-
+**general options:**</br>
      --input/-i&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the test file as input </br>
      --type/-t &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;molecular type of your test data (aa for amino acid, nt for nucleotide)</br>
      --model/-m&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the model you assign to make the prediction (argnet-l for long sequences, argnet-s for short reads) </br>
      --outname/-on&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;the output file name </br>
+
+
+**optional arguments:**</br>
+  -h, --help            show this help message and exit</br></br>
+  ![alt text](https://github.com/patience111/INTNet/blob/master/pics/intnet_helpPage.png)</br>
+  -i INPUT, --input INPUT </br>
+                        the test data as input </br></br>
+  -t {aa,nt}, --type {aa,nt} </br>
+                        molecular type of your input file </br></br>
+  -m {argnet-s,argnet-l}, --model {argnet-s,argnet-l} </br>
+                        the model to make the prediction </br></br>
+  -on OUTNAME, --outname OUTNAME </br>
+                        the name of results output </br></br>
+
+  
