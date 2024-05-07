@@ -103,9 +103,9 @@ python intnet.py --input input_path_data --type aa/nt --model argnet-s --outname
 
 Example
 ----------
-if we predict the long amino acid contigs by using ARGNet-L model, we could use command line (if you are in ARGNet dirctory):</br></br>
+if we predict the short amino acid reads by using INTNet-S model, we could use command line (if you are in INTNet dirctory):
 ```
-python3 ./scripts/argnet.py -i ./tests/aa/long/arg100p.fasta -t aa -m argnet-l -on argnet_lsaa_test.txt
+python3 ./scripts/intnet.py --input ../tests/test2091_50aa.fasta --type aa --model intnet-s --outname intnet_50aa_test_gpu.txt
 ```
 **output** will be like and saved in the **results** folder: </br>
 ![alt text](https://github.com/patience111/INTNet/blob/master/pics/INTNet_ssaa_test_result.png)</br>
