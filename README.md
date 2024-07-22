@@ -73,12 +73,12 @@ Quickstart Guide
 ***for long sequences***
 
 ```
-python intnet.py --input input_path_data  --type aa/nt --model argnet-l  --outname output_file_name
+python intnet.py --input input_path_data  --type aa/nt --model intnet-l  --outname output_file_name
 ```
 ***for short reads***
 
 ```
-python intnet.py --input input_path_data --type aa/nt --model argnet-s --outname output_file_name
+python intnet.py --input input_path_data --type aa/nt --model intnet-s --outname output_file_name
 ```
 
 **general options:**</br>
