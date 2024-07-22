@@ -95,7 +95,7 @@ python intnet.py --input input_path_data --type aa/nt --model intnet-s --outname
                         the test data as input </br></br>
   -t {aa,nt}, --type {aa,nt} </br>
                         molecular type of your input file </br></br>
-  -m {argnet-s,argnet-l}, --model {argnet-s,argnet-l} </br>
+  -m {intnet-s,intnet-l}, --model {intnet-s,intnet-l} </br>
                         the model to make the prediction </br></br>
   -on OUTNAME, --outname OUTNAME </br>
                         the name of results output </br></br>
