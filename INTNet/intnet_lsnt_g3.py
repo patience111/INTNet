@@ -9,10 +9,10 @@ os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 import tqdm
 
 #load model
-filterm = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-aels_tall.h5'))
-classifier = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-intitypes-ls_tall.h5'))
-bac_host = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-host-ls_tall.h5'))
-asso_args = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-argls_tall.h5'))
+filterm = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-aels_tall.h5'))
+classifier = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-intitypes-ls_tall.h5'))
+bac_host = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-host-ls_tall.h5'))
+asso_args = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-argls_tall.h5'))
 
 #encode, encode all the sequence to 1600 aa length
 char_dict = {}

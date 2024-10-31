@@ -14,10 +14,10 @@ from kito import reduce_keras_model
 
 strategy = tf.distribute.MirroredStrategy()
 #model
-filterm = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-aess_tall.h5'))
-classifier = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-intitypes-ss_tall.h5'))
-bac_host = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-host-ss_tall.h5'))
-asso_args = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../model/inti-argss_tall.h5'))
+filterm = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-aess_tall.h5'))
+classifier = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-intitypes-ss_tall.h5'))
+bac_host = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-host-ss_tall.h5'))
+asso_args = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-argss_tall.h5'))
 
 #encode, encode all the sequence to 1600 aa length
 char_dict = {}

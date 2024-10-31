@@ -7,10 +7,10 @@ import textwrap
 #import intnet_ssnt as ssnt
 import sys
 parser = argparse.ArgumentParser(
-prog='IntNet',
+prog='INTNet',
 formatter_class=argparse.RawDescriptionHelpFormatter,
 description=textwrap.dedent("""\
-    IntNet: a deep nueral network for robust identification and annotation of antibiotic resistance genes.
+    IntNet: multi-task multilabel deep neural networks for identification and classification of integrons.
    --------------------------------------------------------------------------------------------------------
     The standlone program is at https:...
     The online service is at https:...
@@ -34,7 +34,7 @@ description=textwrap.dedent("""\
     """
 
 ),
-epilog='Hope you enjoy ARGNet journey, any problem please contact scpeiyao@gmail.com')
+epilog='Hope you enjoy INTNet journey, any problem please contact scpeiyao@gmail.com')
 
 parser.print_help()
 
