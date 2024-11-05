@@ -5,12 +5,12 @@ from sklearn.preprocessing import LabelBinarizer
 from tensorflow.keras.utils import to_categorical
 import random
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '3'
+#os.environ['CUDA_VISIBLE_DEVICES'] = '3'
 import tqdm
 import cProfile, pstats, io
 import Bio.Data.CodonTable as bdc
 from itertools import product
-from kito import reduce_keras_model
+#from kito import reduce_keras_model
 
 #model
 filterm = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-aess_tall.h5'))
