@@ -5,7 +5,7 @@ from sklearn.preprocessing import LabelBinarizer
 from tensorflow.keras.utils import to_categorical
 import random
 import os
-os.environ['CUDA_VISIBLE_DEVICES'] = '1'
+#os.environ['CUDA_VISIBLE_DEVICES'] = '0'
 import tqdm
 
 filterm = tf.keras.models.load_model(os.path.join(os.path.dirname(__file__), '../models/inti-aess_tall.h5'))
