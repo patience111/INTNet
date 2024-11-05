@@ -62,5 +62,5 @@ if args.type == 'aa' and args.model == 'intnet-l':
 
 # for AELS_nt -> classifier
 if args.type == 'nt' and args.model == 'intnet-l':
-    import intnet_lsn_g3 as lsnt
+    import intnet_lsnt_g3 as lsnt
     lsnt.intnet_lsnt(args.input, args.outname)
