@@ -15,7 +15,7 @@ INTNet comprises two specialized models to accommodate different read lengths:
 * **INTNet-s**: Optimized for short reads, enhancing prediction accuracy for sequences ranging from 30 to 50 amino acids or 100 to 150 nucleotides.
 * **INTNet-l**: Tailored for long sequences, ensuring robust predictions for full-length contigs or long nucleotide sequences.
 
-![alt text](https://github.com/patience111/INTNet/blob/master/pics/INTNet_workflow.jpg)
+![alt text](https://github.com/patience111/INTNet/blob/master/pics/IntNet_graphic_abstract_logo.png)
 
 Installation
 ------------
