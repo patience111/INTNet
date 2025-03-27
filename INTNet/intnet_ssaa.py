@@ -232,4 +232,8 @@ def intnet_ssaa(input_file, outfile):
 
         if len(passed_encode) == 0:
             print('no seq passed!')
-            pass
+            with open(os.path.join(os.path.dirname(__file__), "../results/" + outfile), 'a') as f:
+                for idx, ele in enumerate(test_chunk):
+                    f.write(test_chunk[idx].id, + '\t')
+                    f.write('non-inti' + '\t' + '' + '\t' + '' + '\t' + '' + '\t' + '' + '\n')
+            #pass
