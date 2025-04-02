@@ -105,7 +105,7 @@ Example
 ----------
 if we predict the short amino acid reads by using INTNet-S model, we could use command line (if you are in INTNet dirctory):
 ```
-python3 ./scripts/intnet.py --input ../tests/test2091_50aa.fasta --type aa --model intnet-s --outname intnet_50aa_test_gpu.txt
+python3 ./INTNet/intnet.py --input ../tests/test2091_50aa.fasta --type aa --model intnet-s --outname intnet_50aa_test_gpu.txt
 ```
 **output** will be like and saved in the **results** folder: </br>
 ![alt text](https://github.com/patience111/INTNet/blob/master/pics/INTNet_ssaa_test_result.png)</br>
